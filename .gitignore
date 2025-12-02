@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite or local dev DB
+*.db
+*.sqlite
+*.sqlite3
+
+# VSCode / JetBrains / Editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Node (if future frontend)
+node_modules/
+
+# Compiled static assets
+app/static/js/*.map
+
+# Docker
+docker-compose.override.yml
