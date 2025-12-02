@@ -1,0 +1,30 @@
+name: Deploy to Railway
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Build Docker image
+        run: docker build -t real-estate-chatbot .
+
+      - name: Login to Railway
+        run: |
+          curl -sSL https://railway.app/cli | bash
+          echo "${{ secrets.RAILWAY_API_TOKEN }}" | railway login --ci
+
+      - name: Deploy
+        run: railway up --service ${{ secrets.RAILWAY_SERVICE_ID }} --detach
