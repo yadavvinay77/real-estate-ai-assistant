@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate & Property Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS (optional extra tweaks) -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+    <!-- Chat JS -->
+    <script defer src="/static/js/chat.js"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+
+    <!-- Top bar -->
+    <header class="w-full border-b border-slate-800 bg-slate-900/80 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="h-8 w-8 rounded-xl bg-emerald-500 flex items-center justify-center text-slate-900 font-bold text-xl">
+                    🏠
+                </div>
+                <div>
+                    <h1 class="text-lg font-semibold">Real Estate & Property Assistant</h1>
+                    <p class="text-xs text-slate-400">Rentals • Repairs • Property Services</p>
+                </div>
+            </div>
+
+            <div class="hidden sm:flex items-center gap-2 text-xs text-slate-400">
+                <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span>Live assistant</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main layout -->
+    <main class="flex-1 w-full">
+        <div class="max-w-6xl mx-auto px-4 py-4 sm:py-6 grid grid-cols-1 lg:grid-cols-[2fr,1fr] gap-4 sm:gap-6">
+
+            <!-- Chat panel -->
+            <section class="bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col h-[80vh] overflow-hidden">
+                <!-- Chat header -->
+                <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between">
+                    <div>
+                        <h2 class="text-sm font-semibold">Chat with your assistant</h2>
+                        <p class="text-xs text-slate-400">Tell me what you need help with.</p>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs text-slate-400">
+                        <span id="connection-dot" class="h-2 w-2 rounded-full bg-emerald-400"></span>
+                        <span id="connection-status">Connected</span>
+                    </div>
+                </div>
+
+                <!-- Messages area -->
+                <div id="chat-messages" class="flex-1 overflow-y-auto px-3 sm:px-4 py-3 space-y-3 bg-gradient-to-b from-slate-900/60 to-slate-950">
+                    <!-- Messages injected by JS -->
+                </div>
+
+                <!-- Options (buttons) -->
+                <div id="chat-options" class="px-3 sm:px-4 pb-2 flex flex-wrap gap-2 border-t border-slate-800 hidden">
+                    <!-- Option buttons injected by JS -->
+                </div>
+
+                <!-- Input box -->
+                <form id="chat-form" class="border-t border-slate-800 px-3 sm:px-4 py-3 flex items-center gap-2 bg-slate-900/80">
+                    <input
+                        id="chat-input"
+                        type="text"
+                        placeholder="Type your message..."
+                        autocomplete="off"
+                        class="flex-1 text-sm bg-slate-800/80 border border-slate-700 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500/60 focus:border-emerald-500 placeholder:text-slate-500"
+                    />
+                    <button
+                        type="submit"
+                        class="inline-flex items-center gap-1 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-900 text-xs font-semibold px-3 py-2 transition"
+                    >
+                        <span>Send</span>
+                        <span>➤</span>
+                    </button>
+                </form>
+            </section>
+
+            <!-- Right sidebar -->
+            <aside class="hidden lg:flex flex-col gap-4">
+                <!-- Quick tips -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-4">
+                    <h3 class="text-sm font-semibold mb-2">What can I help with?</h3>
+                    <ul class="space-y-1 text-xs text-slate-300">
+                        <li>• Find rental properties in specific areas.</li>
+                        <li>• Log repair & maintenance issues.</li>
+                        <li>• Match you with service providers.</li>
+                        <li>• Answer property & safety questions.</li>
+                    </ul>
+                </div>
+
+                <!-- Example prompts -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-4">
+                    <h3 class="text-sm font-semibold mb-2">Try asking:</h3>
+                    <div class="flex flex-col gap-2">
+                        <button
+                            class="example-prompt text-xs text-left px-3 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/60"
+                            data-prompt="I want to rent a 2 bedroom flat in Stratford with a budget of 1800."
+                        >
+                            🏠 2 bed flat in Stratford under £1800
+                        </button>
+                        <button
+                            class="example-prompt text-xs text-left px-3 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/60"
+                            data-prompt="I have an issue with my boiler, there is no hot water."
+                        >
+                            🔥 No hot water / boiler issue
+                        </button>
+                        <button
+                            class="example-prompt text-xs text-left px-3 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/60"
+                            data-prompt="There is a water leak in my bathroom ceiling."
+                        >
+                            💧 Bathroom leak in ceiling
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="text-[10px] text-slate-500 text-center">
+                    Built for rentals & property services.  
+                    Not an emergency service – call 999 in an emergency.
+                </div>
+            </aside>
+        </div>
+    </main>
+
+</body>
+</html>

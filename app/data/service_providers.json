@@ -1,0 +1,177 @@
+[
+  {
+    "category": "Heating and boiler",
+    "name": "HeatFix London",
+    "phone": "0203 488 2019",
+    "email": "support@heatfixlondon.co.uk",
+    "rating": 4.8
+  },
+  {
+    "category": "Heating and boiler",
+    "name": "Boiler Response Team",
+    "phone": "0203 129 4321",
+    "email": "help@boilerteam.co.uk",
+    "rating": 4.7
+  },
+  {
+    "category": "Bathroom and Toilet",
+    "name": "RapidPlumb UK",
+    "phone": "0207 555 2210",
+    "email": "jobs@rapidplumb.co.uk",
+    "rating": 4.6
+  },
+  {
+    "category": "Bathroom and Toilet",
+    "name": "Express Bathroom Repairs",
+    "phone": "0203 400 6655",
+    "email": "service@expressbathroom.uk",
+    "rating": 4.5
+  },
+  {
+    "category": "Kitchen",
+    "name": "London Kitchen Fit & Fix",
+    "phone": "0203 289 0099",
+    "email": "fix@kitchenfitlondon.uk",
+    "rating": 4.6
+  },
+  {
+    "category": "Water and Leaks",
+    "name": "Leak Detectives London",
+    "phone": "0203 877 9210",
+    "email": "info@leakdetectives.co.uk",
+    "rating": 4.8
+  },
+  {
+    "category": "Water and Leaks",
+    "name": "AquaStop Emergency Plumbers",
+    "phone": "0207 249 4411",
+    "email": "support@aquastop.uk",
+    "rating": 4.7
+  },
+  {
+    "category": "Doors, Garages and Locks",
+    "name": "SecureLock Engineers",
+    "phone": "0203 199 7710",
+    "email": "contact@securelocklondon.uk",
+    "rating": 4.9
+  },
+  {
+    "category": "Internal floors, walls and ceilings",
+    "name": "London Home Repairs",
+    "phone": "0203 011 8822",
+    "email": "team@londonhomerepairs.co.uk",
+    "rating": 4.5
+  },
+  {
+    "category": "Lighting",
+    "name": "BrightFix Electricians",
+    "phone": "0208 144 2211",
+    "email": "support@brightfixelec.uk",
+    "rating": 4.7
+  },
+  {
+    "category": "Window",
+    "name": "London Window Doctor",
+    "phone": "0203 944 8080",
+    "email": "service@windowdoctor.uk",
+    "rating": 4.6
+  },
+  {
+    "category": "Exterior and Garden",
+    "name": "GreenGate Garden Services",
+    "phone": "0208 600 1111",
+    "email": "hello@greengategarden.uk",
+    "rating": 4.8
+  },
+  {
+    "category": "Laundry",
+    "name": "WasherFix Technicians",
+    "phone": "0207 988 1221",
+    "email": "jobs@washerfix.uk",
+    "rating": 4.4
+  },
+  {
+    "category": "Furniture",
+    "name": "Furniture Assembly Team UK",
+    "phone": "0203 777 9911",
+    "email": "team@assembleuk.co",
+    "rating": 4.6
+  },
+  {
+    "category": "Electricity",
+    "name": "PowerSafe Electricians",
+    "phone": "0203 088 7234",
+    "email": "support@powersafe.uk",
+    "rating": 4.8
+  },
+  {
+    "category": "Hot Water",
+    "name": "Hot Water Specialists UK",
+    "phone": "0203 200 1121",
+    "email": "help@hotwaterspecialists.uk",
+    "rating": 4.7
+  },
+  {
+    "category": "Alarms and Smoke Detectors",
+    "name": "SafeHome Alarm Engineers",
+    "phone": "0208 090 7500",
+    "email": "contact@safehomealarms.uk",
+    "rating": 4.6
+  },
+  {
+    "category": "Pests/Vermin",
+    "name": "London Pest Removal",
+    "phone": "0208 333 1212",
+    "email": "service@pestremoval.london",
+    "rating": 4.8
+  },
+  {
+    "category": "Roof",
+    "name": "RoofMaster London",
+    "phone": "0207 600 9080",
+    "email": "info@roofmaster.co.uk",
+    "rating": 4.7
+  },
+  {
+    "category": "Internet",
+    "name": "FibreFix UK",
+    "phone": "0207 555 4210",
+    "email": "tech@fibrefix.uk",
+    "rating": 4.5
+  },
+  {
+    "category": "Property services",
+    "name": "Complete Property Solutions",
+    "phone": "0203 992 7766",
+    "email": "support@propertysolutions.uk",
+    "rating": 4.7
+  },
+  {
+    "category": "Air Conditioning",
+    "name": "CoolAir HVAC London",
+    "phone": "0203 710 0011",
+    "email": "team@coolairhvac.uk",
+    "rating": 4.7
+  },
+  {
+    "category": "Smell Gas?",
+    "name": "National Gas Emergency Service",
+    "phone": "0800 111 999",
+    "email": "emergency@gas.co.uk",
+    "rating": 5.0
+  },
+  {
+    "category": "Fire",
+    "name": "London Fire Safety Specialists",
+    "phone": "0203 099 8881",
+    "email": "fire@safetylondon.uk",
+    "rating": 4.9
+  },
+  {
+    "category": "Other",
+    "name": "General Handyman London",
+    "phone": "0203 299 4411",
+    "email": "contact@handymanlondon.uk",
+    "rating": 4.5
+  }
+]

@@ -1,0 +1,27 @@
+Boiler Troubleshooting Guide – Professional Checklist
+
+1. No Heating or No Hot Water
+- Check boiler pressure (should be between 1 and 2 bar).
+- Reset the boiler if the reset light is flashing.
+- Ensure the thermostat is set to ON and above the room temperature.
+- Check for error codes on the boiler display.
+- Radiators not heating may indicate trapped air – bleeding may be required.
+
+2. Boiler Keeps Turning Off
+- Low water pressure.
+- Frozen external condensate pipe.
+- Faulty thermostat or sensor.
+- Blocked or restricted flue.
+
+3. Strange Noises (Kettling / Whistling)
+- Limescale buildup on the heat exchanger.
+- Low water flow.
+- Air in the system.
+
+4. When to Call an Engineer
+- Smell of gas or burning.
+- Boiler leaking water.
+- Boiler repeatedly losing pressure.
+- Carbon monoxide alarms sounding.
+
+For emergencies, call National Gas Emergency: 0800 111 999.
