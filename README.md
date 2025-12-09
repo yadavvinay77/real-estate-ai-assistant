@@ -1,4 +1,4 @@
-# 🏡 Real Estate AI Assistant  
+# 🏡 Real Estate AI Assistant CRM
 ### Built by **Vinaykumar Yadav**  
 GitHub Repository: https://github.com/yadavvinay77/real_estate_chatbot  
 
